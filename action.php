@@ -17,20 +17,6 @@ require_once(DOKU_PLUGIN.'action.php');
 class action_plugin_showinitpage extends DokuWiki_Action_Plugin {
 
   /**
-   * return some info
-   */
-  function getInfo(){
-    return array(
-      'author' => 'STADTWERKSTATT, Marcel Pennewiss, Till Biskup',
-      'email'  => 'target@servus.at,opensource@pennewiss.de, Till Biskup',
-      'date'   => '2020-09-26',
-      'name'   => 'Show Initpage',
-      'desc'   => 'If access to a page is denied (i.e. user not logged in), redirect to a defined page.',
-      'url'    => 'http://develop.servus.at/software',
-    );
-  }
-
-  /**
    * Register its handlers with the dokuwiki's event controller
    */
   function register(Doku_Event_Handler $controller) {
