@@ -1,7 +1,7 @@
 base   showinitpage
 author STADTWERKSTATT, Marcel Pennewiss, Till Biskup
 email  target@servus.at,opensource@pennewiss.de,till@till-biskup
-date   2020-09-26
+date   2020-12-01
 name   Show Initpage plugin
 desc   If access to a page is denied (i.e. user not logged in), redirect to a defined page.
-url    http://develop.servus.at/software
+url    https://github.com/tillbiskup/dokuwiki-showinitpage 
